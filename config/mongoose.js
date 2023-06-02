@@ -1,7 +1,9 @@
 const mongoose = require('mongoose'); 
 
 
-mongoose.connect(`mongodb://0.0.0.0:27017/placement_cell`); 
+// mongoose.connect(`mongodb://0.0.0.0:27017/placement_cell`);
+
+mongoose.connect(`mongodb+srv://placement:badal12345@cluster0.xge3fgc.mongodb.net/?retryWrites=true&w=majority`)
 
 const db = mongoose.connection;
 
